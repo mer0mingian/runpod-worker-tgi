@@ -1,5 +1,5 @@
 # Base image
-FROM ghcr.io/huggingface/text-generation-inference:latest
+FROM ghcr.io/huggingface/text-generation-inference:1.1.0
 ENV DEBIAN_FRONTEND=noninteractive
 
 # Set the working directory
